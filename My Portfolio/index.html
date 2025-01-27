@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <!-- Link to external CSS -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+/>
+
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="logo">Piyush Dinesh Zawar</div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#certifications">Certification</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+      
+    
+    <!-- Social Links -->
+  <div class="social-links">
+      
+    <!-- Replace '#' with your actual profile URLs -->
+    <a href="https://github.com/piyushzawar33" target="_blank" aria-label="GitHub"
+      ><i class="fab fa-github"></i
+    ></a>
+    
+    <a href="https://www.linkedin.com/in/piyush-zawar" target="_blank" aria-label="LinkedIn"
+      ><i class="fab fa-linkedin"></i
+    ></a>
+    
+    <a href="https://www.instagram.com/piyush__zawar" target="_blank" aria-label="Instagram"
+      ><i class="fab fa-instagram"></i
+    ></a>
+    
+    <!-- Format for WhatsApp: https://wa.me/YourNumber -->
+    <a href="https://wa.me/9145446261" target="_blank" aria-label="WhatsApp"
+      ><i class="fab fa-whatsapp"></i
+    ></a>
+
+    <!-- Fiverr handle -->
+    <a
+      href="https://www.fiverr.com/piyushzawar99" target="_blank" aria-label="Fiverr"
+    ><i class="fab fa-fiverr"></i>
+    </a>
+  </div>
+    
+  </div>
+</header>
+  </header>
+
+  <!-- ABOUT SECTION (includes rotating text) -->
+  <section id="about" class="about-section">
+    <div class="about-content">
+        <div class="profile-image">
+            <!-- Replace 'images/profile-photo.jpg' with the actual path/name of your photo -->
+            <img src="images/profile-photo.jpg" alt="Profile Photo" />
+          </div>
+
+      <h1>Hello, I'm Piyush Zawar</h1>
+      
+      <!-- Rotating Text -->
+      <div class="rotate-wrapper">
+        <span class="static-text">I specialize in </span>
+        <span class="rotate-text"></span>
+      </div>
+      <!-- Example button leading to resume section -->
+      
+    </div>
+    <p>
+      I'm a dedicated Data Scientist with hands-on experience from my internship at Innomatics Research Labs. Beyond data science, I also offer translation and localization services to clients worldwide.
+    
+      Over the years, I’ve completed numerous projects with high accuracy, within tight deadlines, and with top-tier client satisfaction—earning me a 5-star rating on Fiverr and recognition as a Level 1 Seller. Additionally, I collaborate as a freelancer for various agencies around the globe.
+     
+      If you’re a startup or established organization seeking data science solutions or multilingual support, let’s connect and bring your projects to life!
+      <p>
+
+      </section>
+
+  <!-- RESUME SECTION -->
+  <section id="resume" class="resume-section">
+    <h2>Resume</h2>
+    <p>
+      Download or view my resume for more details on my experience and skills.
+    </p>
+    <!-- Update 'resume.pdf' with your actual resume link or path -->
+    <a href="Piyush_Zawar_Resume.pdf" target="_blank" class="button">Open Resume PDF</a>
+  </section>
+
+  <!-- PORTFOLIO SECTION (with filtering) -->
+  <section id="portfolio" class="portfolio-section">
+    <h2>Portfolio</h2>
+  
+    <!-- TAB BAR -->
+    <ul class="portfolio-tabs">
+      <!-- By default, "Data Science & AI" is active -->
+      <li data-tab="dsai" class="active">Data Science & AI Projects</li>
+      <li data-tab="translation">Translation Projects</li>
+    </ul>
+  
+    <!-- DATA SCIENCE & AI TAB CONTENT -->
+    <div id="dsai" class="tab-content active">
+      <div class="project-list">
+        <!-- EDA Project -->
+        <div class="project-card">
+          <img src="images/eda.jpg" alt="EDA Project" />
+          <div class="project-info">
+            <h4>EDA Project</h4>
+            <p>Brief description of your Exploratory Data Analysis project.</p>
+            <a href="https://github.com/piyushzawar33/EDA_on_EV_Dataset" class="button">View Details</a>
+          </div>
+        </div>
+  
+        <!-- Machine Learning Project -->
+        <div class="project-card">
+          <img src="images/machine-learning.jpg" alt="Machine Learning" />
+          <div class="project-info">
+            <h4>Machine Learning Project</h4>
+            <p>Short summary of your ML project, tools, or methods used.</p>
+            <a href="https://github.com/piyushzawar33/Kaggle-Datasets" class="button">View Details</a>
+          </div>
+        </div>
+  
+        <!-- Deep Learning Project -->
+        <div class="project-card">
+          <img src="images/deep-learning.jpg" alt="Deep Learning Project" />
+          <div class="project-info">
+            <h4>Deep Learning Project</h4>
+            <p>Brief details about your deep learning model, datasets, etc.</p>
+            <a href="https://colab.research.google.com/drive/1_Ty_is3ptEfoPptnYC3bmmyM3WMQZ14e#scrollTo=UkExDk2pujwC" class="button">View Details</a>
+          </div>
+        </div>
+  
+        <!-- AI Project -->
+        <div class="project-card">
+          <img src="images/ai-project.png" alt="AI Project" />
+          <div class="project-info">
+            <h4>AI Project</h4>
+            <p>Overview of your AI project, highlighting goals and achievements.</p>
+            <a href="https://github.com/piyushzawar33/GenAI-Project" class="button">View Details</a>
+          </div>
+        </div>
+  
+        <!-- Chatbots -->
+        <div class="project-card">
+          <img src="images/chatbot.jpeg" alt="Chatbots" />
+          <div class="project-info">
+            <h4>Chatbots</h4>
+            <p>Describe your chatbot development, frameworks, or language used.</p>
+            <a href="https://github.com/piyushzawar33/AI-Code-Reviewer-Application" class="button">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- TRANSLATION TAB CONTENT -->
+    <div id="translation" class="tab-content">
+      <div class="project-list">
+        <!-- Book Translation -->
+        <div class="project-card">
+          <img src="images/book-translation.jpg" alt="Book Translation" />
+          <div class="project-info">
+            <h4>Book Translation</h4>
+            <p>Short description of the book translation: languages, genre, etc.</p>
+            <a href="https://drive.google.com/drive/folders/12Nz5mD84zwns9SRFgsxKQsKVsU9HF26c?usp=sharing" class="button">View Details</a>
+          </div>
+        </div>
+  
+        <!-- Legal Translation -->
+        <div class="project-card">
+          <img src="images/legal-translation.jpg" alt="Legal Translation" />
+          <div class="project-info">
+            <h4>Legal Translation</h4>
+            <p>Your experience with legal documents, certifications, etc.</p>
+            <a href="https://drive.google.com/drive/folders/1h4aNESbj02QhqL7w6w6eQy-UYF9zmx0y?usp=sharing" class="button">View Details</a>
+          </div>
+        </div>
+  
+        <!-- Medical Translation -->
+        <div class="project-card">
+          <img src="images/medical-translation.jpg" alt="Medical Translation" />
+          <div class="project-info">
+            <h4>Medical Translation</h4>
+            <p>Overview of medical translation expertise, terminologies, etc.</p>
+            <a href="https://drive.google.com/drive/folders/1RHS8DxhfQwNuKlgRlo3YY4Z9rV0q44-u?usp=sharing" class="button">View Details</a>
+          </div>
+        </div>
+  
+        <!-- Financial Translation -->
+        <div class="project-card">
+          <img src="images/financial-translation.png" alt="Financial Translation" />
+          <div class="project-info">
+            <h4>Financial Translation</h4>
+            <p>Mention your handling of financial reports, statements, etc.</p>
+            <a href="https://drive.google.com/drive/folders/1mkOFw_ajYnAe6HtsFgbdy4lj8On4fsxE?usp=sharing" class="button">View Details</a>
+          </div>
+        </div>
+  
+        <!-- Marketing Translation -->
+        <div class="project-card">
+          <img src="images/marketing-translation.jpg" alt="Marketing Translation" />
+          <div class="project-info">
+            <h4>Marketing Translation</h4>
+            <p>Discuss brand adaptation, marketing campaigns, cultural nuance.</p>
+            <a href="https://drive.google.com/drive/folders/170xyWiufjHo8JBsRCGCnlzgkc7XG-azp?usp=sharing" class="button">View Details</a>
+          </div>
+        </div>
+
+        <!-- Website Localization -->
+        <div class="project-card">
+          <img src="images/website-localization.jpg" alt="Website Localization" />
+          <div class="project-info">
+            <h4>Website Localization</h4>
+            <p>Mention your handling of financial reports, statements, etc.</p>
+            <a href="https://drive.google.com/drive/folders/1l176F5peqOSK196ejIRO7C7h1wE0SU7B?usp=sharing" class="button">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- Add more project-card blocks, specifying data-category as needed -->
+    </div>
+  </section>
+
+
+
+
+
+<!-- REVIEWS / TESTIMONIALS SECTION -->
+<section id="reviews" class="reviews-slider">
+  <h2>What Clients Say</h2>
+
+  <div class="slider-window">
+    <div class="reviews-slide-wrapper">
+      <!-- Review 1 -->
+      <div class="review-card">
+        <p class="quote">
+          "Fantastic service! Delivered translations on time with excellent accuracy!"
+        </p>
+        <p class="review-author">— Kanika Goel, Flippro Services (India)</p>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review-card">
+        <p class="quote">
+          "Absolutely wonderful experience working with Piyush..."
+        </p>
+        <p class="review-author">— Tivo Gonzalez (California)</p>
+      </div>
+
+      <!-- More reviews ... -->
+      <div class="review-card">
+        <p class="quote">
+          "Excellent work, delivered well within the deadline!"
+        </p>
+        <p class="review-author">— Shiv Verma, Vokab Linguistics (USA)</p>
+      </div>
+
+      <div class="review-card">
+        <p class="quote">
+          "Very pleased to work with Piyush. Quick response time, clear communication..."
+        </p>
+        <p class="review-author">— Semjones (Netherlands)</p>
+      </div>
+
+    <div class="review-card">
+      <p class="quote">
+        "Excellent and prompt service."
+      </p>
+      <p class="review-author">— Ramona Lobo (UK)</p>
+    </div>
+
+    <div class="review-card">
+      <p class="quote">
+        "It was a wonderful experience collaborating with Piyush."
+      </p>
+      <p class="review-author">— Shreya (India)</p>
+    </div>
+
+    <div class="review-card">
+      <p class="quote">
+        "Accurate and fast transcription service—I highly recommend it!"
+      </p>
+      <p class="review-author">— Faizal Abidi, Ebilingo (Pakistan)</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="certifications" class="certifications-section">
+    <h2>Certifications</h2>
+    <p class="cert-intro">
+      Below are some of the certifications I have earned, demonstrating my
+      expertise in various fields of Data Science, AI, and Translation.
+    </p>
+    
+    <!-- Certificates Container -->
+    <div class="certificate-list">
+      <!-- Example Certificate 1 -->
+      <div class="certificate-card">
+        <!-- Optional: certificate thumbnail or logo -->
+        <img src="images/adv-machine-learning.jpg" alt="Certificate 1" />
+        <div class="certificate-info">
+          <h4>Advanced Machine Learning</h4>
+          <p>Issued by Innomatics Research Labs, Pune. Showcases proficiency in machine learning concepts.</p>
+          <!-- Link to certificate PDF or official URL -->
+          <a href="https://drive.google.com/file/d/1GRq7DmLrcVCryMlS_WX3UrBIqF11xlz0/view?usp=sharing" target="_blank" class="button">
+            View Certificate
+          </a>
+        </div>
+      </div>
+  
+      <!-- Example Certificate 2 -->
+      <div class="certificate-card">
+        <img src="images/adv-data-analysis.jpg" alt="Certificate 2" />
+        <div class="certificate-info">
+          <h4>Advanced Data Analysis</h4>
+          <p>Issued by Innomatics Research Labs, Pune. Covers data cleaning, data preprocessing and data visualization etc.</p>
+          <a href="https://drive.google.com/file/d/1M38Y4trPYY18XRoQg2Uu5amUP1GbPkeR/view?usp=sharing" target="_blank" class="button">
+            View Certificate
+          </a>
+        </div>
+      </div>
+  
+      <!-- Example Certificate 3 -->
+      <div class="certificate-card">
+        <img src="images/data-science.jpg" alt="Certificate 3" />
+        <div class="certificate-info">
+          <h4>Data Science</h4>
+          <p>Issued by Physics Wallah. Confirms expertise in Data Science domain.</p>
+          <a href="https://drive.google.com/file/d/1aDa0WzYnChHTci7TkasceGS2U6vBTn-9/view?usp=sharing" target="_blank" class="button">
+            View Certificate
+          </a>
+        </div>
+      </div>
+      
+      <!-- Example Certificate 3 -->
+      <div class="certificate-card">
+        <img src="images/lor.png" alt="Certificate 3" />
+        <div class="certificate-info">
+          <h4>Letter of Recommendation</h4>
+          <p>Issued by Innomatics Research Labs, Pune.</p>
+          <a href="https://drive.google.com/file/d/15BUsu_xQlxInDq3IWpkQRsYNtg2lkXoe/view?usp=sharing" target="_blank" class="button">
+            View Certificate
+          </a>
+        </div>
+      </div>
+
+      <!-- Add more certificate-card blocks as needed -->
+    </div>
+  </section>
+
+
+  <!-- CONTACT / HIRE ME SECTION -->
+  <section id="contact" class="contact-section">
+  <h2>Let's Connect</h2>
+  <p class="contact-intro">
+    Interested in working together or have a question? Feel free to reach out!
+  </p>
+
+  <div class="contact-container">
+    <!-- Contact Form -->
+    <form 
+      action="https://formspree.io/f/xbldgjzr" 
+      method="POST" 
+      class="contact-form"
+    >
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name..."
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email..."
+            required
+          />
+        </div>
+      </div>
+      
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Your message..."
+            required
+          ></textarea>
+        </div>
+      </div>
+      
+      <button type="submit" class="button">Send Message</button>
+    </form>
+
+    <!-- Direct Contact Info -->
+    <div class="contact-info">
+      <p><strong>Email:</strong> 
+        <a href="mailto:pzawar33@gmail.com">pzawar33@gmail.com</a>
+      </p>
+      <p><strong>Phone:</strong> +91 9145446261</p>
+    </div>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© 2025 Piyush. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to external JavaScript -->
+  <script src="js/scripts.js"></script>
+  
+</body>
+</html>
